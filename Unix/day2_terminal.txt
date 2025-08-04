@@ -1,0 +1,326 @@
+    1  date
+    2  bc
+    3  sudo apt update 
+    4  sudo apt upgrade
+    5  echo $SHELL
+    6  printenv SHELL
+    7  whoami
+    8  whatis echo
+    9  whatis printenv
+   10  whatis cat
+   11  whereis cat
+   12  whereis gcc
+   13  info cat
+   14  sudo apt install build-essential
+   15  date
+   16  date "+%D"
+   17  date "+%D%T"
+   18  date "%Y-%m-%d"
+   19  date "+%Y-%m-%d"
+   20  date "+%A %B %d %Y %T"
+   21  date --date "tommorow"
+   22  date --date "tomorrow"
+   23  date --date "2 years ago"
+   24  man date
+   25  ls
+   26  cd linux
+   27  ls
+   28  history > my_terminal_history1.txt
+   29  ls
+   30  cat my_terminal_history1.txt
+   31  clear
+   32  cal
+   33  sudo apt install cal
+   34  sudo apt install ncall
+   35  sudo apt install ncal
+   36  cal 7 2025
+   37  cal 2025
+   38  cal -3 2025
+   39  cal -3
+   40  clear
+   41  ps
+   42  exit
+   43  echo history
+   44  cat histort
+   45  cat history
+   46  cd linux
+   47  history > sample.txt
+   48  cat sample.txt
+   49  bc
+   50  bc <<2+4
+   51  bc <<"12/5"
+   52  bc <<<"12/5"
+   53  bc <<<"scale = 2;12/5"
+   54  uname
+   55  uname -o
+   56  uname -i
+   57  uname -n
+   58  uname -v
+   59  uname -s
+   60  uname -m
+   61  uname -r
+   62  uname -a
+   63  echo "Welcome to Linux
+   64  "
+   65  echo -e "alert\a"
+   66  echo -e "Hello \t world"
+   67  echo "Welcome to \"linux\""
+   68  echo date
+   69  echo 'date'
+   70  echo 
+   71  echo "This 
+   72  is 
+   73  linux"
+   74  printf"Linux training"
+   75  printf "Linux training"
+   76  printf"Linux Training\n"
+   77  printf "Linux Training\n"
+   78  printf "My Shell is %s\n"$SHELL
+   79  printf "My Shell is %s\n" $SHELL
+   80  seq 1 10
+   81  seq 1 3 10
+   82  seq 10 -1 1
+   83  seq 20 -2 0
+   84  seq -s "" 10
+   85  seq -s "+" 1 3 10
+   86  rev <<< "Tata"
+   87  history
+   88  echo $?
+   89  ls
+   90  mkdir new
+   91  mkdir new1 new2
+   92  ls
+   93  cd
+   94  cd -
+   95  mkdir -p d1/d2
+   96  ls
+   97  cd d1
+   98  ls
+   99  ls -l
+  100  cd ..
+  101  ls -a
+  102  ls -R
+  103  nano demo
+  104  wc demo
+  105  touch newfile.txt
+  106  nano newfile.txt
+  107  cat newfile.txt > output.txt
+  108  cat output
+  109  cat output.txt
+  110  cat n demo
+  111  cat -n demo
+  112  mkdir training
+  113  cp newfile output.txt training
+  114  cp newfile.txt  output.txt training
+  115  cd training 
+  116  ls
+  117  cd
+  118  ls
+  119  ls -R
+  120  cp -r new training
+  121  cd linux
+  122  ls
+  123  mv output.txt out
+  124  ls
+  125  mv out training
+  126  ls
+  127  cd training
+  128  ls
+  129  vi sum.c
+  130  gcc sum.c && ./a.out
+  131  cat sum.c
+  132  vi sum.c
+  133  nano sum.c
+  134  gcc sum.c && ./a.out
+  135  tac sum.c
+  136  ls
+  137  cd .
+  138  ls
+  139  cd ..
+  140  ls
+  141  rm -r n*
+  142  ls
+  143  history > day1_terminal.txt
+  144  ls
+  145  cat day1_terminal.txt
+  146  cd ..
+  147  l
+  148  ls
+  149  git --version
+  150  sudo apt update
+  151  sudo apt install git
+  152  git --version
+  153  git clone https://github.com/ramkumarkuppusamy/5188448_RAMKUMAR-K.git
+  154  ls
+  155  cd 5188448_RAMKUMAR-K
+  156  ls
+  157  git init
+  158  git config --global user.name "ram"
+  159  git config --global user.email "ram544new@gmail.com"
+  160  git remote -v
+  161  git pull origin main
+  162  cd ..
+  163  ls
+  164  cd linux
+  165  ls
+  166  cp day1_terminal.txt 5188448_RAMKUMAR-K
+  167  cd ..
+  168  ls
+  169  cd 5188448_RAMKUMAR-K
+  170  ls
+  171  pwd
+  172  cd-
+  173  cd -
+  174  cd ..
+  175  ls
+  176  cd linux
+  177  ls
+  178  cp day1_terminal.txt [200~/home/ram/5188448_RAMKUMAR-K
+  179  cp day1_terminal.txt /home/ram/5188448_RAMKUMAR-K
+  180  cd ..
+  181  cd 5188448_RAMKUMAR-K
+  182  ls
+  183  git add.
+  184  git add .
+  185  ls
+  186  mdir Unix
+  187  mkdir Unix
+  188  ls
+  189  mv day1_terminal.txt Unix
+  190  ls
+  191  cd Unix
+  192  git status
+  193  git commit -m "Unix Folder Added"
+  194  git push origin main
+  195  [200~/home/ram/5188448_RAMKUMAR-K
+  196  ls
+  197  cd linux
+  198  ls
+  199  mkdir linux_1
+  200  cd linux_1
+  201  ls
+  202  vi sum
+  203  mv sum.c sum
+  204  mv sum sum.c
+  205  ls
+  206  gcc sum.c && ./a.out
+  207  vi filecmd
+  208  cat filecmd
+  209  ls
+  210  vi filecmd
+  211  ls
+  212  nano filecmd
+  213  more filecmd
+  214  less filecmd
+  215  head filecmd
+  216  head -n 5 filecmd
+  217  tail filecmd
+  218  tail +5 filecmd
+  219  nano sample.txt
+  220  cat sample.txt
+  221  cut -c 1-3 sample.txt
+  222  cut -c 4-10 sample.txt
+  223  cat sample.txt
+  224  cut -d ':' -f2 sample.txt
+  225  cut -d ':' -f 2,3 sample.txt
+  226  ls
+  227  nano f1
+  228  nano f2
+  229  paste -d ':' f1 f2
+  230  paste  -s f1 f2
+  231  cat sample.txt
+  232  sort sample.txt
+  233  sort sample.txt -r
+  234  sort -t ':' -k2 sample.txt
+  235  sort -t ':' -k3 sample.txt
+  236  sort -t ':' -k4 sample.txt
+  237  sort -t ':' -k3 sample.txt -r
+  238  cat sample.txt
+  239  tr ':' '|' < sample.txt
+  240  cat sample.txt
+  241  ls
+  242  tr ':' '|' < sample.txt > s1.txt
+  243  ls
+  244  cat s1.txt
+  245  tr ':0' '|$' < sample.txt
+  246  cat sample.txt
+  247  tr -s '0' < sample.txt
+  248  tr -d'0' < sample.txt
+  249  tr -d '0' < sample.txt
+  250  nano example.txt
+  251  uniq < example.txt
+  252  cat s1.txt
+  253  cmp sample.txt s1.txt
+  254  diff sample.txt s1.txr
+  255  diff sample.txt s1.txt
+  256  nano test.c
+  257  grep ^main test.c
+  258  cat test.c
+  259  grep main test.c
+  260  grep \; test.c
+  261  nano test.c
+  262  grep \; test.c
+  263  nano sed_test
+  264  cat sed_test
+  265  sed 's/hello/hi' sed_test
+  266  sed 's/hello/hi/' sed_test
+  267  cat sed_test
+  268  history
+  269  cat sed_test
+  270  cd -
+  271  ls
+  272  cd linux
+  273  ls
+  274  cd Linux_1
+  275  cd linux_1
+  276  ls
+  277  cat sed_test
+  278  nano sed_test
+  279  sed 's/hello/hi/' sed_test
+  280  nano sed_test
+  281  sed 's/hello/hi/' sed_test
+  282  sed 's/hello/hi/g' sed_test
+  283  sed 'hii/d' sed_test
+  284  sed 'ev/d' sed_test
+  285  sed 'everyone/d' sed_test
+  286  nano sed_test
+  287  sed '/simple/d' sed_test
+  288  cat sed_test
+  289  sed '/This/a append' sed_test
+  290  sed -n '/This/p' sed_test
+  291  nano data.txt
+  292  awk '{print $0}' data.txt
+  293  awk '{print $1 $2}' data.txt
+  294  awk '{print $1,$2}' data.txt
+  295  awk $2>25 '{print $1}' data.txt
+  296  awk  '{print $2}' data.txt
+  297  awk  '$2 > 25 {print $2}' data.txt
+  298  awk  '$2 > 25 {print $1}' data.txt
+  299  awk 'BEGIN {print"Name:,Age:,Prof:"}{print $1,$2,$3}' data.txt
+  300  awk 'BEGIN {print"Name Age Prof"}{print $1,$2,$3}' data.txt
+  301  awk '{total_age += $2} END {print "Total age :",total_age}' data.txt
+  302  awk '{print NR,$1}' data.txt
+  303  awk '/ram/' data.txt
+  304  awk '/Ram/' data.txt
+  305  awk '{print "Name: %s,Age: %d,Prof: %s\n",$1,$2,$3}' data.txt
+  306  awk '{printf "Name: %s,Age: %d,Prof: %s\n",$1,$2,$3}' data.txt
+  307  awk 'END {print"Total emp = ",NR}' data.txt
+  308  ls
+  309  ls -l s1.txt
+  310  chmod u+x s1.txt
+  311  ls -l s1.txt
+  312  chmod 0-r s1.txt
+  313  chmod o-r s1.txt
+  314  ls -l s1.txt
+  315  chmod 462 s1.txt
+  316  ls -l s1.txt
+  317  history 
+  318  cd..
+  319  cd ..
+  320  ls
+  321  pwd
+  322  cd linux_1
+  323  ls
+  324  cd ..
+  325  ls
+  326  history > day2_terminal.txt
