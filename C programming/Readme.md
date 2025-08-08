@@ -1,2 +1,2 @@
 #5188448_RAMKUMAR K
-![Git Simplilearn Certificate](https://github.com/ramkumarkuppusamy/5188448_RAMKUMAR-K/blob/060b30b716bf9e4c7cd4a1a4106520dba77ead00/Git/IMAGE/git%20cert.jpg)
+![sololearn c programming certificate](https://github.com/ramkumarkuppusamy/5188448_RAMKUMAR-K/blob/3188d806866d109e2ae9842634b40c2a28ca9f2e/C%20programming/images/Sololearn%20c%20programming.jpg)
